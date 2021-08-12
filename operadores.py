@@ -13,16 +13,22 @@ if operador == 1 :
     resultado = cantidad / Tigo 
     print(resultado , "Minutos")
 
-
+if cantidad >= promocion :
+    resultado1= (cantidad/Tigo)*2
+    print (resultado1 ,"te hemos multiplicado tu valor :")
 
 if operador== 2:
     resultado = cantidad / claro 
     print(resultado , "Minutos")
 
-
+if cantidad >= promocion :
+    resultado1= (cantidad/claro)*2
+    print (resultado1 ,"te hemos multiplicado tu valor :")
 
 if operador== 3:
     resultado = cantidad / Movistar
     print(resultado , "Minutos")
 
-
+if cantidad >= promocion :
+    resultado1= (cantidad/Movistar)*2
+    print (resultado1 ,"te hemos multiplicado tu valor :")
