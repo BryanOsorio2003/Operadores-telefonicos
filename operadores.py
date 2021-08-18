@@ -49,8 +49,9 @@ if opcion ==2:
             print("Usted ha elegido el paquete mensual con un costo de 20.000$")
             print("La recarga del paquete mensual al numero " + str(numero) + " ha sido exitosa.")
     if operador==2:
-        print("Usted ha elegido el paquete diario con un costo de 3.000$")
-        print("La recarga del paquete diario al numero " + str(numero) + " ha sido exitosa.")
+        if costo == 1:
+            print("Usted ha elegido el paquete diario con un costo de 3.000$")
+            print("La recarga del paquete diario al numero " + str(numero) + " ha sido exitosa.")
         if costo==2:
             print("Usted ha elegido el paquete mensual con un costo de 20.000$")
             print("La recarga del paquete mensual al numero " + str(numero) + " ha sido exitosa.")
